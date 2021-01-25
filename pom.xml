@@ -44,6 +44,7 @@
             </dependency>
       </dependencies>
 
+<packaging>jar</packaging>
   
 
   <build>
@@ -57,7 +58,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>com.devmedia.mvc.application.Application.java</mainClass>
+            <mainClass>com.devmedia.mvc.application.Application</mainClass>
           </manifest>
         </archive>
       </configuration>
@@ -70,7 +71,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>com.devmedia.mvc.application.Application.java</mainClass>
+            <mainClass>com.devmedia.mvc.application.Application</mainClass>
           </manifest>
         </archive>
       </configuration>
@@ -83,7 +84,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>com.devmedia.mvc.application.Application.java</mainClass>
+            <mainClass>com.devmedia.mvc.application.Application</mainClass>
           </manifest>
         </archive>
       </configuration>
@@ -96,7 +97,7 @@
           <manifest>
             <addClasspath>true</addClasspath>
             <classpathPrefix>lib/</classpathPrefix>
-            <mainClass>com.devmedia.mvc.application.Application.java</mainClass>
+            <mainClass>com.devmedia.mvc.application.Application</mainClass>
           </manifest>
         </archive>
       </configuration>
